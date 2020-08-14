@@ -3,7 +3,7 @@ import './App.css';
 import CautionTape from './images/caution_tape_bg.jpg'
 import SummonersRift from './images/summoners_rift.jpg'
 import PeopleWorking from './images/people_working.jpg'
-import { makeStyles,withStyles,createMuiTheme } from '@material-ui/core/styles';
+import { makeStyles,withStyles } from '@material-ui/core/styles';
 import Divider from '@material-ui/core/Divider'
 import Container from '@material-ui/core/Container'
 import Typography from '@material-ui/core/Typography'

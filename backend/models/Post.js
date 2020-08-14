@@ -5,7 +5,11 @@ const PostSchema = mongoose.Schema({
         type: String,
         required: true
     },
-    description: {
+    author: {
+        type: String,
+        default: 'Anonymous'
+    },
+    content: {
         type: String,
         required: true
     },
