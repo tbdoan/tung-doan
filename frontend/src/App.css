@@ -12,12 +12,16 @@
   /* Footer height */
 }
 
-#footer {
+footer {
+  font-size: small;
+  text-align: center;
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 2.5rem;
   /* Footer height */
+  height: 2rem;
+  background-color: rgb(243, 243, 243);
+  padding-top: 1rem;
 }
 
 p {
@@ -89,7 +93,9 @@ img {
 .button-group {
   display: inline-block;
 }
+
 /* Style all font awesome icons */
+
 .fa {
   padding: 10px;
   font-size: 30px;
@@ -97,23 +103,12 @@ img {
   border: 1px solid black;
   text-align: center;
   text-decoration: none;
+  background: white;
+  color: black;
 }
 
 /* Add a hover effect if you want */
+
 .fa:hover {
   opacity: 0.7;
-}
-
-/* Set a specific color for each brand */
-
-/* Facebook */
-.fa-facebook {
-  background: white;
-  color: black;
-}
-
-/* Twitter */
-.fa-twitter {
-  background: white;
-  color: black;
 }

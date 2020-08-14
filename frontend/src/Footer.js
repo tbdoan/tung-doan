@@ -3,9 +3,8 @@ import './App.css';
 
 function Footer() {
   return (
-    <footer id='footer'>
-      <p>Author: Tung Doan</p>
-      <p><a href="mailto:tbdoan@ucsd.edu">tbdoan@ucsd.edu</a></p>
+    <footer>
+      <p> Created by: Tung Doan </p>
     </footer>
   );
 }
