@@ -20,9 +20,9 @@ function Nav() {
       {/* <!-- Add icon library --> */}
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
       {/* Add font awesome icons  */}
-      <a href="mailto:tbdoan@ucsd.edu" class="fa fa-envelope-o fa-lg"> </a>
-      <a href="https://github.com/tbdoan" class="fa fa-github fa-lg"> </a>
-      <a href="https://www.linkedin.com/in/tung-doan-860540195/" class="fa fa-linkedin fa-lg"> </a>
+      <a href="mailto:tbdoan@ucsd.edu" className="fa fa-envelope-o fa-lg"> </a>
+      <a href="https://github.com/tbdoan" className="fa fa-github fa-lg"> </a>
+      <a href="https://www.linkedin.com/in/tung-doan-860540195/" className="fa fa-linkedin fa-lg"> </a>
       </div>
     </nav>
   );

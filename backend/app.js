@@ -9,7 +9,7 @@ app.use(express.json());
 
 //Import Routes
 const postRoutes = require('./routes/posts');
-app.use('/post', postRoutes);
+app.use('/posts', postRoutes);
 
 //ROUTES
 app.get('/', async (req, res) => {
@@ -21,10 +21,10 @@ app.get('/', async (req, res) => {
 })
 //Connect to DB
 mongoose.connect(process.env.DB_CONNECTION,
-    { useUnifiedTopology: true, useNewUrlParser: true  },
+    { useUnifiedTopology: true, useNewUrlParser: true },
     () => {
-        console.log('connected to DB')
+        console.log('Connected to DB')
     })
 
 //starts listening
-app.listen(3000);
+app.listen(process.env.PORT || 8080);
