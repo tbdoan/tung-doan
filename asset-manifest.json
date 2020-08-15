@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/my-website/static/css/main.066603be.chunk.css",
+    "main.js": "/my-website/static/js/main.56980e65.chunk.js",
+    "main.js.map": "/my-website/static/js/main.56980e65.chunk.js.map",
+    "runtime-main.js": "/my-website/static/js/runtime-main.0cbcd75a.js",
+    "runtime-main.js.map": "/my-website/static/js/runtime-main.0cbcd75a.js.map",
+    "static/js/2.d4c25c48.chunk.js": "/my-website/static/js/2.d4c25c48.chunk.js",
+    "static/js/2.d4c25c48.chunk.js.map": "/my-website/static/js/2.d4c25c48.chunk.js.map",
+    "index.html": "/my-website/index.html",
+    "precache-manifest.846418f6c022851472f12b1035ef6bc5.js": "/my-website/precache-manifest.846418f6c022851472f12b1035ef6bc5.js",
+    "service-worker.js": "/my-website/service-worker.js",
+    "static/css/main.066603be.chunk.css.map": "/my-website/static/css/main.066603be.chunk.css.map",
+    "static/js/2.d4c25c48.chunk.js.LICENSE.txt": "/my-website/static/js/2.d4c25c48.chunk.js.LICENSE.txt",
+    "static/media/caution_tape_bg.jpg": "/my-website/static/media/caution_tape_bg.85627538.jpg",
+    "static/media/people_working.jpg": "/my-website/static/media/people_working.cccf6a04.jpg",
+    "static/media/summoners_rift.jpg": "/my-website/static/media/summoners_rift.19383d38.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0cbcd75a.js",
+    "static/js/2.d4c25c48.chunk.js",
+    "static/css/main.066603be.chunk.css",
+    "static/js/main.56980e65.chunk.js"
+  ]
+}
