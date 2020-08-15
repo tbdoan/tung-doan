@@ -7,7 +7,7 @@ const PostList = ({ dataArray }) => {
     return (
       <Post
         key={index}
-        date={Date()}
+        date={data.date}
         title={data.title}
         author={data.author}
         content={data.content}
