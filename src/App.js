@@ -12,12 +12,12 @@ function App() {
   return (
     <div id='page-container'>
     <Router>
-      <div className='App' id='content-wrap'>
+      <div className='App'>
         <Nav />
         <Switch>
-          <Route path='/' exact component={Landing} />
-          <Route path='/about' component={Library} />
-          <Route path='/projects' component={Projects} />
+          <Route path='/personal-website' exact component={Landing} />
+          <Route path='/personal-website/about' component={Library} />
+          <Route path='/personal-website/projects' component={Projects} />
         </Switch>
       </div>
       <Footer/>

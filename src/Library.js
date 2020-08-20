@@ -9,6 +9,7 @@ import CardContent from '@material-ui/core/CardContent';
 import Type from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import TextareaAutosize from '@material-ui/core/TextareaAutosize';
+import Tooltip from '@material-ui/core/Tooltip';
 
 const useStyles = makeStyles({
   card: {
@@ -30,6 +31,9 @@ const useStyles = makeStyles({
     font: 'inherit',
     padding: '8px',
     resize: 'none',
+  },
+  icon: {
+    color: 'lightslategrey'
   }
 
 });
@@ -42,6 +46,10 @@ const Library = () => {
   const [content, setContent] = useState('');
   const [warning, setWarning] = useState('Content (pls type something)');
   const url = "https://pure-spire-15462.herokuapp.com/posts";
+  const tooltipMessage = "from adventure time lore, the grayble is a short parable. " +
+    "the goal of this page is to collect stories/thoughts from all walks of life. " +
+    "feel free to post one yourself. everything is welcome here.";
+
 
   const onTitleChange = (e) => {
     setTitle(e.target.value);
@@ -62,10 +70,6 @@ const Library = () => {
         'title': title,
         'content': content
       }
-      let localData = data;
-      localData.unshift(post);
-      console.log("localData: ", localData);
-      setData(localData);
 
       const res = await fetch(url, {
         method: 'POST',
@@ -94,10 +98,20 @@ const Library = () => {
 
   return (
     <div>
-      <Type className={classes.title} variant="h3">
-        Library of
-        <a id='grayble' href='https://adventuretime.fandom.com/wiki/Grayble'> Grayble</a>
-      </Type>
+      <div className={classes.titleContainer}>
+        <Type className={classes.title} variant="h3">
+          Library of
+          <Tooltip className={classes.icon} title={tooltipMessage}>
+            <Type component='a'
+              variant='h3'
+              className={classes.title}
+              id='grayble'
+              href='https://adventuretime.fandom.com/wiki/Grayble'> Grayble</Type>
+          </Tooltip>
+        </Type>
+
+        {/* <InfoRoundedIcon className={classes.icon} /> */}
+      </div>
       <Container>
         <Card className={classes.card}>
           <CardContent>

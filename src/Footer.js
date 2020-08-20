@@ -4,7 +4,7 @@ import './App.css';
 function Footer() {
   return (
     <footer>
-      <p> Created by: Tung Doan </p>
+      <p> source <a href='https://github.com/tbdoan/personal-website'>here</a> </p>
     </footer>
   );
 }

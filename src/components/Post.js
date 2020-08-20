@@ -13,6 +13,9 @@ const useStyles = makeStyles({
   title: {
     fontSize: 14,
   },
+  content: {
+    whiteSpace: 'pre-line'
+  }
 });
 
 const Post = ({ date, title, author, content }) => {
@@ -29,7 +32,7 @@ const Post = ({ date, title, author, content }) => {
         <Typography className={classes.pos} color="textSecondary">
           {author}
         </Typography>
-        <Typography variant="body2" component="p">
+        <Typography className={classes.content} variant="body2" component="p">
           {content}
         </Typography>
       </CardContent>
