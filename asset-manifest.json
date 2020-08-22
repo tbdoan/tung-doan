@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.7f589681.chunk.css",
-    "main.js": "/personal-website/static/js/main.c4995bfc.chunk.js",
-    "main.js.map": "/personal-website/static/js/main.c4995bfc.chunk.js.map",
-    "runtime-main.js": "/personal-website/static/js/runtime-main.5c07f3f2.js",
-    "runtime-main.js.map": "/personal-website/static/js/runtime-main.5c07f3f2.js.map",
-    "static/js/2.b3f37ea5.chunk.js": "/personal-website/static/js/2.b3f37ea5.chunk.js",
-    "static/js/2.b3f37ea5.chunk.js.map": "/personal-website/static/js/2.b3f37ea5.chunk.js.map",
-    "index.html": "/personal-website/index.html",
-    "precache-manifest.6a49011222d94f4f57779493df72a902.js": "/personal-website/precache-manifest.6a49011222d94f4f57779493df72a902.js",
-    "service-worker.js": "/personal-website/service-worker.js",
-    "static/css/main.7f589681.chunk.css.map": "/personal-website/static/css/main.7f589681.chunk.css.map",
-    "static/js/2.b3f37ea5.chunk.js.LICENSE.txt": "/personal-website/static/js/2.b3f37ea5.chunk.js.LICENSE.txt",
-    "static/media/caution_tape_bg.jpg": "/personal-website/static/media/caution_tape_bg.85627538.jpg",
-    "static/media/people_working.jpg": "/personal-website/static/media/people_working.cccf6a04.jpg",
-    "static/media/summoners_rift.jpg": "/personal-website/static/media/summoners_rift.19383d38.jpg"
+    "main.css": "/tung-doan/static/css/main.7f589681.chunk.css",
+    "main.js": "/tung-doan/static/js/main.947b2a2c.chunk.js",
+    "main.js.map": "/tung-doan/static/js/main.947b2a2c.chunk.js.map",
+    "runtime-main.js": "/tung-doan/static/js/runtime-main.96c1b107.js",
+    "runtime-main.js.map": "/tung-doan/static/js/runtime-main.96c1b107.js.map",
+    "static/js/2.964cf558.chunk.js": "/tung-doan/static/js/2.964cf558.chunk.js",
+    "static/js/2.964cf558.chunk.js.map": "/tung-doan/static/js/2.964cf558.chunk.js.map",
+    "index.html": "/tung-doan/index.html",
+    "precache-manifest.d3900566bd137052c4d40492d8137501.js": "/tung-doan/precache-manifest.d3900566bd137052c4d40492d8137501.js",
+    "service-worker.js": "/tung-doan/service-worker.js",
+    "static/css/main.7f589681.chunk.css.map": "/tung-doan/static/css/main.7f589681.chunk.css.map",
+    "static/js/2.964cf558.chunk.js.LICENSE.txt": "/tung-doan/static/js/2.964cf558.chunk.js.LICENSE.txt",
+    "static/media/caution_tape_bg.jpg": "/tung-doan/static/media/caution_tape_bg.85627538.jpg",
+    "static/media/people_working.jpg": "/tung-doan/static/media/people_working.cccf6a04.jpg",
+    "static/media/summoners_rift.jpg": "/tung-doan/static/media/summoners_rift.19383d38.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.5c07f3f2.js",
-    "static/js/2.b3f37ea5.chunk.js",
+    "static/js/runtime-main.96c1b107.js",
+    "static/js/2.964cf558.chunk.js",
     "static/css/main.7f589681.chunk.css",
-    "static/js/main.c4995bfc.chunk.js"
+    "static/js/main.947b2a2c.chunk.js"
   ]
 }
