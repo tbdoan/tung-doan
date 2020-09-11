@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0dc9533fd02dda4733e838a5edefea78",
+    "revision": "f1dae813f3e0938f6aafabe4e93de797",
     "url": "/tung-doan/index.html"
   },
   {
-    "revision": "7b01f00c348aed232e09",
+    "revision": "7397f31efd5dcecbea4c",
     "url": "/tung-doan/static/css/main.7f589681.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tung-doan/static/js/2.964cf558.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7b01f00c348aed232e09",
-    "url": "/tung-doan/static/js/main.947b2a2c.chunk.js"
+    "revision": "7397f31efd5dcecbea4c",
+    "url": "/tung-doan/static/js/main.300dffc4.chunk.js"
   },
   {
     "revision": "b9871c3e7db0d4a78593",
