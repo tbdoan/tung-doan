@@ -1,3 +1,5 @@
+/** CSS TAKEN FROM https://github.com/do-community/React-With-Smooth-Scrolling/blob/master/src/App.css **/
+
 :root {
   --off-white: #fafafa;
 }
@@ -55,6 +57,11 @@
   padding: 40px;
 }
 
+.nav-item > .active {
+  font-weight: bold;
+}
+
+/** DUMB CSS THAT I WROTE LOL **/
 footer {
   font-size: small;
   text-align: center;
