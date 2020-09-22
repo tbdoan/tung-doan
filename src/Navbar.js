@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import logo from './logo.svg';
 import { Link, animateScroll as scroll } from 'react-scroll';
 
@@ -16,25 +16,13 @@ const Navbar = () => {
           <li className="nav-item">
             <Link
               activeClass="active"
-              to="section1"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
-              Section 1
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link
-              activeClass="active"
               to="section2"
               spy={true}
               smooth={true}
               offset={-70}
               duration={500}
             >
-              Section 2
+              About
             </Link>
           </li>
           <li className="nav-item">
@@ -46,7 +34,7 @@ const Navbar = () => {
               offset={-70}
               duration={500}
             >
-              Section 3
+              Projects and Experience
             </Link>
           </li>
           <li className="nav-item">
@@ -58,19 +46,7 @@ const Navbar = () => {
               offset={-70}
               duration={500}
             >
-              Section 4
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link
-              activeClass="active"
-              to="section5"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
-              Section 5
+              Contact
             </Link>
           </li>
         </ul>
