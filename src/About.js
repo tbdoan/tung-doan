@@ -5,9 +5,8 @@ const Section = ({ title, subtitle, dark, id }) => {
     <div
       style={{ minHeight: '100vh' }}
       className={'section' + (dark ? ' section-dark' : '')}
-      id={id}
     >
-      <div className="section-content">
+      <div className="section-content" id={id}>
         <h1>{title}</h1>
         <p>{subtitle}</p>
       </div>

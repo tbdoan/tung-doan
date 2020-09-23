@@ -19,7 +19,6 @@ const Navbar = () => {
               to="section2"
               spy={true}
               smooth={true}
-              offset={-70}
               duration={500}
             >
               About
@@ -31,7 +30,6 @@ const Navbar = () => {
               to="section3"
               spy={true}
               smooth={true}
-              offset={-70}
               duration={500}
             >
               Projects and Experience
@@ -43,7 +41,6 @@ const Navbar = () => {
               to="section4"
               spy={true}
               smooth={true}
-              offset={-70}
               duration={500}
             >
               Contact

@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+
 import Navbar from './Navbar';
+import ProfileCard from './ProfileCard';
 import Section from './Section';
 import dummyText from './DummyText';
 import Footer from './Footer';
@@ -9,23 +12,13 @@ class App extends Component {
     return (
       <div className="App">
         <Navbar />
-        <Section
-          title="Tung Doan"
-          subtitle={dummyText}
-          dark={true}
-          id="section1"
-        />
-        <Section
-          title="About"
-          subtitle={dummyText}
-          dark={false}
-          id="section2"
-        />
+        <Section title="About" subtitle={dummyText} dark={true} id="section1" />
+        <ProfileCard title="Tung Doan" dark={false} id="section2" />
         <Section
           title="Projects and Experience"
           subtitle={dummyText}
           dark={true}
-          id="section3"
+          id={'section3'}
         />
         <Section
           title="Contact Me"
