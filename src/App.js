@@ -7,19 +7,17 @@ import ProfileCard from './ProfileCard';
 import Section from './Section';
 import dummyText from './DummyText';
 import Footer from './Footer';
+import Landing from './Landing';
+import Projects from './Projects';
+
 class App extends Component {
   render() {
     return (
       <div className="App">
         <Navbar />
-        <Section title="About" subtitle={dummyText} dark={true} id="section1" />
-        <ProfileCard title="Tung Doan" dark={false} id="section2" />
-        <Section
-          title="Projects and Experience"
-          subtitle={dummyText}
-          dark={true}
-          id={'section3'}
-        />
+        <Landing dark={true} id="section1" />
+        <ProfileCard dark={false} id="section2" />
+        <Projects dark={true} id={'section3'} />
         <Section
           title="Contact Me"
           subtitle={dummyText}
