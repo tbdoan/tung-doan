@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className="nav" id="navbar">
       <div className="nav-content">
         <li className="nav-logo" onClick={scroll.scrollToTop}>
-          Tung Doan
+          TD
         </li>
         <ul className="nav-items">
           <li className="nav-item">
