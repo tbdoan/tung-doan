@@ -15,7 +15,7 @@ class App extends Component {
     return (
       <div className="App">
         <Navbar />
-        <Landing dark={true} id="section1" />
+        <Landing dark={false} id="section1" />
         <ProfileCard dark={false} id="section2" />
         <Projects dark={true} id={'section3'} />
         <Section
