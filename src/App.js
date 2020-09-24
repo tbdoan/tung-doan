@@ -4,7 +4,6 @@ import './App.css';
 
 import Navbar from './Navbar';
 import ProfileCard from './ProfileCard';
-import Profile from './Profile';
 import Section from './Section';
 import dummyText from './DummyText';
 import Footer from './Footer';
