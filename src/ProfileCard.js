@@ -5,11 +5,17 @@ const ProfileCard = ({ dark, id }) => {
   return (
     <div
       style={{ minHeight: '100vh' }}
-      className={'section' + (dark ? ' section-dark' : '')}
+      className={'profile-card section' + (dark ? ' section-dark' : '')}
       id={id}
     >
       <div className="section-content">
-        <Media>
+        <Media
+          className="section"
+          style={{
+            backgroundColor: 'rgba(200, 200, 200, 0.3)',
+            backdropFilter: 'blur(5px)',
+          }}
+        >
           <img
             width={250}
             height={250}
@@ -18,13 +24,12 @@ const ProfileCard = ({ dark, id }) => {
             alt="Generic placeholder"
           />
           <Media.Body>
-            <h5>Media Heading</h5>
-            <p>
-              Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
-              scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum
-              in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac
-              nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-            </p>
+            <h5>Tung Doan</h5>
+            <ul>
+              <li> Second year Math-CS major at UCSD </li>
+              <li> Trapstar </li>
+              <li> Academic </li>
+            </ul>
           </Media.Body>
         </Media>
       </div>

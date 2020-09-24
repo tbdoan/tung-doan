@@ -15,8 +15,7 @@
 }
 
 .nav-logo {
-  height: 60px;
-  width: 60px;
+  color: black;
 }
 
 .nav-logo:hover {
@@ -36,7 +35,7 @@
 .nav-item {
   display: inline;
   margin-left: 2rem;
-  color: #333;
+  color: darkslategray;
 }
 
 .nav-item:hover {
@@ -55,6 +54,12 @@
   color: white;
 }
 
+.profile-card {
+  background-image: url('https://i.pinimg.com/originals/56/f9/e2/56f9e272de8708a62f2b94d941382415.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .section-content {
   max-width: 800px;
   margin: 0 auto;
@@ -66,10 +71,9 @@
 }
 .nav-item > .active {
   font-weight: bold;
+  text-shadow: 1rem;
+  text-decoration: none;
 }
-
-/** CSS FROM HERE https://blog.alexdevero.com/create-quick-simple-react-flipping-card/#closing-thoughts-on-react-flipping-card-and-learning-react **/
-/*- Typograpy and resets -*/
 
 /** DUMB CSS THAT I WROTE LOL **/
 footer {
@@ -79,4 +83,27 @@ footer {
   /* Footer height */
   height: 2rem;
   color: black;
+}
+
+ul {
+  padding-inline-start: 1rem;
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(5px);
+}
+
+.project-title {
+  color: rgb(233, 233, 233) !important;
+  text-decoration: none !important;
+}
+
+.project-title:hover {
+  color: white !important;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.project-title:focus {
+  box-shadow: none !important;
 }
