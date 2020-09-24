@@ -78,8 +78,10 @@ body {
   border-radius: 5px;
   color: rgba(0, 0, 0, 0.705);
   text-shadow: 2px 2px 8px rgba(126, 125, 125, 0.781);
-  height: 40vh;
-  width: 60vh;
+  height: fit-content;
+  width: fit-content;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 .section-content {
   max-width: 800px;
@@ -156,4 +158,16 @@ ul {
 
 .project-title:focus {
   box-shadow: none !important;
+}
+
+#name {
+  font-size: 5em;
+}
+
+hr {
+  border-top: 1.5px solid rgba(0, 0, 0, 0.2);
+}
+
+#description {
+  font-size: 1.25em;
 }

@@ -11,8 +11,15 @@ const Landing = ({ dark, id }) => {
       <div class="bg bg2"></div>
       <div class="bg bg3"></div>
       <div id="name-card" className="section-content">
-        <h1>Tung Doan</h1>
-        <p>✨ Spent way too long animating this ✨</p>
+        <h1 id="name">Tung Doan</h1>
+        <hr />
+        <p id="description">
+          {
+            // eslint-disable-next-line
+          }
+          Math-CS Student ✨ Lifelong Learner ✨ Has no friends because he likes
+          Javascript{' '}
+        </p>
       </div>
     </div>
   );
