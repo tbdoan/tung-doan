@@ -92,10 +92,13 @@ body {
   margin-bottom: auto;
   margin-top: auto;
 }
+
 .nav-item > .active {
   font-weight: bold;
   text-shadow: 2px 2px 8px rgba(126, 125, 125, 0.781);
   text-decoration: none;
+  color: whitesmoke;
+  font-size: larger;
 }
 /** https://codepen.io/chris22smith/pen/RZogMa **/
 .bg {

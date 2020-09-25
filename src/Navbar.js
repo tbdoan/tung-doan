@@ -1,29 +1,40 @@
 import React from 'react';
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
   return (
     <nav className="nav" id="navbar">
       <div className="nav-content">
-        <li className="nav-logo" onClick={scroll.scrollToTop}>
-          TD
+        <li className="nav-logo nav-item">
+          <Link
+            to="section1"
+            activeClass="active"
+            offset={-70}
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
+            TD
+          </Link>
         </li>
         <ul className="nav-items">
           <li className="nav-item">
             <Link
               activeClass="active"
-              to="section2"
+              to="profile"
+              hashSpy={true}
               spy={true}
               smooth={true}
               duration={500}
             >
-              About
+              Profile
             </Link>
           </li>
           <li className="nav-item">
             <Link
               activeClass="active"
-              to="section3"
+              to="projects"
+              hashSpy={true}
               spy={true}
               smooth={true}
               duration={500}
@@ -34,7 +45,8 @@ const Navbar = () => {
           <li className="nav-item">
             <Link
               activeClass="active"
-              to="section4"
+              to="contact"
+              hashSpy={true}
               spy={true}
               smooth={true}
               duration={500}

@@ -4,6 +4,7 @@ import './App.css';
 
 import Navbar from './Navbar';
 import ProfileCard from './ProfileCard';
+import Profile from './Profile';
 import Section from './Section';
 import dummyText from './DummyText';
 import Footer from './Footer';
@@ -16,13 +17,13 @@ class App extends Component {
       <div className="App">
         <Navbar />
         <Landing dark={false} id="section1" />
-        <ProfileCard dark={false} id="section2" />
-        <Projects dark={true} id={'section3'} />
+        <Profile id="profile" />
+        <Projects dark={true} id={'projects'} />
         <Section
           title="Contact Me"
           subtitle={dummyText}
           dark={false}
-          id="section4"
+          id="contact"
         />
         <Footer />
       </div>

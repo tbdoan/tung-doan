@@ -1,6 +1,6 @@
 import React from 'react';
 import Media from 'react-bootstrap/Media';
-
+import './base.css';
 const ProfileCard = ({ dark, id }) => {
   return (
     <div

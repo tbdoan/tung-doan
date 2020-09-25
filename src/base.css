@@ -1,25 +1,56 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
-
-body {
-  background: rgb(19, 19, 19);
-  color: #fff;
-  font-family: 'Noto Sans', sans-serif;
+.basic-grid {
+  display: grid;
+  gap: 0.5rem;
+  grid-template-areas:
+    'a a'
+    'b c';
+  grid-template-rows: 1fr 8fr;
+  grid-template-columns: 4fr 6fr;
 }
 
-.card {
+.fireship-card:nth-child(1) {
+  grid-area: a;
+  font-size: 2rem;
+  align-items: left;
+  padding-left: 1rem;
+}
+
+.fireship-card:nth-child(2) {
+  grid-area: b;
+  padding: 10px 10px 10px 10px;
+  align-items: center;
+}
+
+.fireship-card:nth-child(3) {
+  grid-area: c;
+  align-items: left;
+  padding: 1em;
+  font-size: 1em;
+}
+
+.fireship-card:nth-child(3) > p {
+  margin-bottom: 0;
+}
+
+.fireship-card:nth-child(3) > p {
+  margin-bottom: 0;
+}
+
+.progress {
+  margin-bottom: 10px;
+}
+
+.fireship-card {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: #353535;
-  font-size: 3rem;
-  color: #fff;
+  background: whitesmoke;
+  color: gray;
   box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem,
     rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
   height: 100%;
   width: 100%;
   border-radius: 4px;
-  transition: all 500ms;
+  transition: all 200ms;
   overflow: hidden;
 
   background-size: cover;
@@ -27,8 +58,8 @@ body {
   background-repeat: no-repeat;
 }
 
-.card:hover {
+.fireship-card:hover {
   box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em,
     rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
-  transform: translateY(-3px) scale(1.1);
+  transform: translateY(-3px) scale(1);
 }
