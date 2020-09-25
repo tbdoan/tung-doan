@@ -1,37 +1,32 @@
-import React, { useState, useEffect } from 'react';
-import ProgressBar from 'react-bootstrap/ProgressBar';
-import pfp from './images/not_edward.jpeg';
+import React from 'react';
+import ProgressBar from './ProgressBar';
 
 const Profile = ({ id }) => {
-  const [javaProgress, setJavaProgress] = useState(0);
-  const [pythonProgress, setPythonProgress] = useState(0);
-
-  useEffect(() => {
-    if (javaProgress < 60) {
-      setTimeout(() => setJavaProgress(javaProgress + 1), javaProgress * 2);
-    }
-  }, [javaProgress]);
   return (
     <div
       style={{
         minHeight: '100vh',
-        backgroundImage:
-          'linear-gradient(to bottom right, white, #6c3, #09f, white)',
+        background: '#00f260' /* fallback for old browsers */,
+        backgroundImage: 'linear-gradient(to bottom right, #00f260, #0575e6)',
       }}
       className="section"
       id={id}
     >
       <div className="container basic-grid">
         <div className="fireship-card">Tung Doan</div>
-        <div className="fireship-card">
-          <img src={pfp} width="400px" height="400px"></img>
-        </div>
+        <div className="fireship-card"></div>
         <div className="fireship-card">
           <span style={{ fontSize: '1.5rem' }}>Skills</span>
           <p>Java</p>
-          <ProgressBar now={javaProgress} />
+          <ProgressBar width={500} percent={0.6} />
           <p>Python</p>
-          <ProgressBar now={30} />
+          <ProgressBar width={500} percent={0.55} />
+          <p>C++</p>
+          <ProgressBar width={500} percent={0.3} />
+          <p>Javascript</p>
+          <ProgressBar width={500} percent={0.8} />
+          <p>Number of Friends</p>
+          <ProgressBar width={500} percent={0.1} />
         </div>
       </div>
     </div>

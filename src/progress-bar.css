@@ -4,9 +4,10 @@
 }
 
 .progress {
-  background-color: rgb(62, 122, 235);
-  height: 10px;
+  background-image: linear-gradient(to left, #00f260, #0575e6);
+  height: 13px;
   border-radius: 1rem;
   transition: 1s ease;
   transition-delay: 0.5s;
+  margin-top: 0.2em;
 }
