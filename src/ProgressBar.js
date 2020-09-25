@@ -10,7 +10,7 @@ const ProgressBar = ({ width, percent }) => {
   });
 
   return (
-    <div>
+    <div style={{ marginBottom: '10px' }}>
       <div className="progress-div" style={{ width: width }}>
         <div style={{ width: `${value}px` }} className="progress" />
       </div>

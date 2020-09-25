@@ -16,8 +16,9 @@ const Profile = ({ id }) => {
         <div className="fireship-card">Tung Doan</div>
         <div className="fireship-card"></div>
         <div className="fireship-card">
-          <span style={{ fontSize: '1.5rem' }}>Skills</span>
-          <p>Java</p>
+          <span style={{ fontSize: '1.5rem' }}>Stats</span>
+          <hr />
+          <p>Java </p>
           <ProgressBar width={500} percent={0.6} />
           <p>Python</p>
           <ProgressBar width={500} percent={0.55} />
@@ -27,6 +28,11 @@ const Profile = ({ id }) => {
           <ProgressBar width={500} percent={0.8} />
           <p>Number of Friends</p>
           <ProgressBar width={500} percent={0.1} />
+
+          <p style={{ marginTop: '10px' }}>
+            Tools of the Trade: Jupyter Notebook, VSCode, Github, Google
+            Firebase
+          </p>
         </div>
       </div>
     </div>

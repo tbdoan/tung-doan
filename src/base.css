@@ -34,12 +34,13 @@
   margin-bottom: 0;
 }
 
-.fireship-card:nth-child(3) > p {
-  margin-bottom: 0;
+.fireship-card:nth-child(3) > hr {
+  margin-bottom: 10px;
+  margin-top: 0;
 }
 
-.progress {
-  margin-bottom: 10px;
+.fireship-card:nth-child(3) > *:not(hr) {
+  margin-left: 3%;
 }
 
 .fireship-card {
