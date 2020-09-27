@@ -1,5 +1,13 @@
 import React, { useState } from 'react';
-
+import {
+  dodgepog,
+  spotiqueue,
+  mafia,
+  seascape,
+  skinalytics,
+  smartfin,
+} from './Text';
+import AccordionSection from './AccordionSection';
 const Projects = ({ id }) => {
   const [show, setShow] = useState(false);
   return (
@@ -13,32 +21,46 @@ const Projects = ({ id }) => {
       className="section"
       id={id}
     >
-      <div class="accordion">
-        <section class="accordion-item">
-          <h1>Section 1</h1>
-          <div class="accordion-item-content">
-            <p>Content for section 1</p>
-          </div>
-        </section>
-        <section class="accordion-item">
-          <h1>Section 2</h1>
-          <div class="accordion-item-content">
-            <p>Content for section 2</p>
-          </div>
-        </section>
-        <section class="accordion-item accordion-item--default">
-          <h1>Section 3</h1>
-          <div class="accordion-item-content">
-            <p>Content for section 3</p>
-            <p>This is my default state.</p>
-          </div>
-        </section>
-        <section class="accordion-item">
-          <h1>Section 4</h1>
-          <div class="accordion-item-content">
-            <p>Content for section 4</p>
-          </div>
-        </section>
+      <div className="accordion">
+        <h1>Projects</h1>
+        <AccordionSection
+          title={dodgepog.title}
+          techs={dodgepog.techs}
+          description={dodgepog.description}
+          link={dodgepog.link}
+        />
+        <AccordionSection
+          title={spotiqueue.title}
+          techs={spotiqueue.techs}
+          description={spotiqueue.description}
+          link={spotiqueue.link}
+        />
+        <AccordionSection
+          title={mafia.title}
+          techs={mafia.techs}
+          description={mafia.description}
+          link={mafia.link}
+        />
+        <AccordionSection
+          title={seascape.title}
+          techs={seascape.techs}
+          description={seascape.description}
+          link={seascape.link}
+        />
+        <br />
+        <h1>Experience</h1>
+        <AccordionSection
+          title={smartfin.title}
+          techs={smartfin.techs}
+          description={smartfin.description}
+          link={smartfin.link}
+        />
+        <AccordionSection
+          title={skinalytics.title}
+          techs={skinalytics.techs}
+          description={skinalytics.description}
+          link={skinalytics.link}
+        />
       </div>
     </div>
   );
