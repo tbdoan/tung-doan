@@ -19,7 +19,7 @@ export const mafia = {
   title: 'Mafia Online',
   techs: 'Technologies used: React, material-core-ui, Firebase, Heroku',
   description:
-    "Online iteration of the popular party game Mafia. Anyone can create an online room and invite friends with a code. It's a bit plain but fully playable.",
+    "Online iteration of the popular party game Mafia. Anyone can create an online room and invite friends with a code. Uses a dynamic interface that reflects each player's roles. It's a bit plain but fully playable.",
   link: 'https://github.com/tbdoan/mafia-v2',
 };
 
