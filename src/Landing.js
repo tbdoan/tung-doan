@@ -1,10 +1,10 @@
 import React from 'react';
 
-const Landing = ({ dark, id }) => {
+const Landing = ({ id }) => {
   return (
     <div
       style={{ minHeight: '100vh', textAlign: 'center' }}
-      className={'section' + (dark ? ' section-dark' : '')}
+      className={'section'}
       id={id}
     >
       <div class="bg"></div>

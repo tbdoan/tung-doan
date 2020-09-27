@@ -5,8 +5,7 @@ import './base.css';
 
 import Navbar from './Navbar';
 import Profile from './Profile';
-import Section from './Section';
-import dummyText from './DummyText';
+import Contact from './Contact';
 import Footer from './Footer';
 import Landing from './Landing';
 import Projects from './Projects';
@@ -16,15 +15,13 @@ class App extends Component {
     return (
       <div className="App">
         <Navbar />
-        <Landing dark={false} id="section1" />
+        <Landing id="section1" />
+        <hr style={{ margin: 0 }} />
         <Profile id="profile" />
+        <hr style={{ margin: 0 }} />
         <Projects dark={true} id={'projects'} />
-        <Section
-          title="Contact Me"
-          subtitle={dummyText}
-          dark={false}
-          id="contact"
-        />
+        <hr style={{ margin: 0 }} />
+        <Contact />
         <Footer />
       </div>
     );

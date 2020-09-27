@@ -9,10 +9,9 @@ const Projects = ({ id }) => {
     <div
       style={{
         minHeight: '100vh',
-        backgroundColor: 'gray',
         backgroundImage: show
           ? 'url("https://media.allure.com/photos/59b020b3981e2a240fc6a0bb/master/pass/poop-color-wellness.jpg")'
-          : 'inherit',
+          : 'linear-gradient(to top right, #00f260, #0575e6)',
       }}
       className="section"
       id={id}

@@ -18,17 +18,17 @@ const Profile = ({ id }) => {
         <div className="fireship-card">
           <span style={{ fontSize: '1.5rem' }}>Stats</span>
           <hr />
-          <p>Java </p>
+
+          <p> Java </p>
           <ProgressBar width={500} percent={0.6} />
           <p>Python</p>
-          <ProgressBar width={500} percent={0.55} />
+          <ProgressBar active={false} width={500} percent={0.55} />
           <p>C++</p>
           <ProgressBar width={500} percent={0.3} />
           <p>Javascript</p>
           <ProgressBar width={500} percent={0.8} />
           <p>Number of Friends</p>
           <ProgressBar width={500} percent={0.1} />
-
           <p style={{ marginTop: '10px' }}>
             Tools of the Trade: Jupyter Notebook, VSCode, Github, Google
             Firebase
