@@ -183,3 +183,41 @@ hr {
 .contact {
   color: white;
 }
+
+/** ACCORDION: https://codepen.io/uniqname/pen/gKmpz/ **/
+/* The Magic */
+.accordion:hover .accordion-item:hover .accordion-item-content,
+.accordion .accordion-item--default .accordion-item-content {
+  height: 6em;
+}
+
+.accordion-item-content,
+.accordion:hover .accordion-item-content {
+  height: 0;
+  overflow: hidden;
+  transition: height 0.25s;
+}
+
+/* Aesthetic */
+body {
+  background: #222;
+}
+
+.accordion {
+  padding: 0;
+  margin: 0 auto;
+  width: 20%;
+  font-family: 'PT Sans' sans-serif;
+}
+
+.accordion .accordion-item {
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(5px);
+  border-bottom: 1px solid #666;
+  padding: 1em;
+  color: #eee;
+}
+
+.accordion h1 {
+  margin: 0;
+}
