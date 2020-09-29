@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/tung-doan/static/css/main.7f589681.chunk.css",
-    "main.js": "/tung-doan/static/js/main.300dffc4.chunk.js",
-    "main.js.map": "/tung-doan/static/js/main.300dffc4.chunk.js.map",
-    "runtime-main.js": "/tung-doan/static/js/runtime-main.96c1b107.js",
-    "runtime-main.js.map": "/tung-doan/static/js/runtime-main.96c1b107.js.map",
-    "static/js/2.964cf558.chunk.js": "/tung-doan/static/js/2.964cf558.chunk.js",
-    "static/js/2.964cf558.chunk.js.map": "/tung-doan/static/js/2.964cf558.chunk.js.map",
+    "main.css": "/tung-doan/static/css/main.479c489f.chunk.css",
+    "main.js": "/tung-doan/static/js/main.7bb15b72.chunk.js",
+    "main.js.map": "/tung-doan/static/js/main.7bb15b72.chunk.js.map",
+    "runtime-main.js": "/tung-doan/static/js/runtime-main.ef9db646.js",
+    "runtime-main.js.map": "/tung-doan/static/js/runtime-main.ef9db646.js.map",
+    "static/css/2.d9ad5f5c.chunk.css": "/tung-doan/static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.8f592bbd.chunk.js": "/tung-doan/static/js/2.8f592bbd.chunk.js",
+    "static/js/2.8f592bbd.chunk.js.map": "/tung-doan/static/js/2.8f592bbd.chunk.js.map",
     "index.html": "/tung-doan/index.html",
-    "precache-manifest.954ec8deb2635fb7f23fcc979aa468c4.js": "/tung-doan/precache-manifest.954ec8deb2635fb7f23fcc979aa468c4.js",
+    "precache-manifest.189e7aa589623d9b4448c020bec4b2a8.js": "/tung-doan/precache-manifest.189e7aa589623d9b4448c020bec4b2a8.js",
     "service-worker.js": "/tung-doan/service-worker.js",
-    "static/css/main.7f589681.chunk.css.map": "/tung-doan/static/css/main.7f589681.chunk.css.map",
-    "static/js/2.964cf558.chunk.js.LICENSE.txt": "/tung-doan/static/js/2.964cf558.chunk.js.LICENSE.txt",
-    "static/media/caution_tape_bg.jpg": "/tung-doan/static/media/caution_tape_bg.85627538.jpg",
-    "static/media/people_working.jpg": "/tung-doan/static/media/people_working.cccf6a04.jpg",
-    "static/media/summoners_rift.jpg": "/tung-doan/static/media/summoners_rift.19383d38.jpg"
+    "static/css/2.d9ad5f5c.chunk.css.map": "/tung-doan/static/css/2.d9ad5f5c.chunk.css.map",
+    "static/css/main.479c489f.chunk.css.map": "/tung-doan/static/css/main.479c489f.chunk.css.map",
+    "static/js/2.8f592bbd.chunk.js.LICENSE.txt": "/tung-doan/static/js/2.8f592bbd.chunk.js.LICENSE.txt",
+    "static/media/base.css": "/tung-doan/static/media/pfp.b039a816.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.96c1b107.js",
-    "static/js/2.964cf558.chunk.js",
-    "static/css/main.7f589681.chunk.css",
-    "static/js/main.300dffc4.chunk.js"
+    "static/js/runtime-main.ef9db646.js",
+    "static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.8f592bbd.chunk.js",
+    "static/css/main.479c489f.chunk.css",
+    "static/js/main.7bb15b72.chunk.js"
   ]
 }
